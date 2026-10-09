@@ -1,0 +1,36 @@
+{
+  "name": "paceforge",
+  "version": "0.1.0",
+  "description": "Offline grade-adjusted race pacing and workout CLI",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "bin": {
+    "paceforge": "bin/paceforge.js"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "start": "node bin/paceforge.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "fixtures",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jevgenijostin/paceforge.git"
+  },
+  "dependencies": {
+    "@garmin/fitsdk": "^21.218.0",
+    "fast-xml-parser": "^5.11.2"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}
