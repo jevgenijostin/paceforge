@@ -65,10 +65,6 @@ Vitest covers malformed GPX, missing elevation, geometry, pacing invariants, a c
 
 The three synthetic fixtures cover a roughly 5 km flat loop, 10 km of hills with 150 m ascent and descent, and a roughly 3 km course without elevation. They are hand-authored test courses, not routes for navigation.
 
-## Monetization roadmap — not implemented
-
-Single-race plan generation and the current ZWO/FIT exports are free. The MIT CLI has no paywall, billing, or usage limits. A future paid offering could provide FTP/power-based zones, bulk multi-race planning, and expanded export capabilities (distance-triggered steps, TCX, device-specific compatibility, and better Zwift benchmark handling). These are roadmap ideas only; no paid functionality or cloud service is built into this MVP.
-
 ## License
 
 PaceForge code is [MIT licensed](LICENSE). Dependencies retain their own licenses; notably `@garmin/fitsdk` uses Garmin's FIT Protocol License, available in its installed `LICENSE.txt` and [upstream](https://github.com/garmin/fit-javascript-sdk/blob/main/LICENSE.txt).
